@@ -6,7 +6,7 @@ import logging
 import random
 from typing import Optional, AsyncGenerator
 
-log = logging.getLogger("makima.proxy")
+log = logging.getLogger("tg.proxy")
 
 _PROXY_IP_PORT_RE = re.compile(r"(?:\d{1,3}\.){3}\d{1,3}:\d{2,5}")
 
