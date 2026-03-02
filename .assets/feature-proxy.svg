@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="120" viewBox="0 0 600 120">
+  <rect width="600" height="120" fill="black"/>
+  <text x="50" y="70" fill="red" font-family="monospace" font-size="36" font-weight="bold">🧩 Прокси-пул</text>
+  <text x="50" y="100" fill="white" font-family="monospace" font-size="18">Автообновление и ротация прокси</text>
+</svg>
