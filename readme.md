@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="https://t.me/rnxcode">
+  <a href="https://t.me/dex2die">
     <img src="https://img.shields.io/badge/author-@rnxcode-red?style=for-the-badge&logo=telegram" alt="Author"/>
   </a>
   <img src="https://img.shields.io/badge/license-MIT-black?style=for-the-badge" alt="License"/>
