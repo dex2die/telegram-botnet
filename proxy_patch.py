@@ -1,14 +1,3 @@
-"""
-proxy_patch.py — быстрый пул прокси для makima-бота.
-
-КАК ПОДКЛЮЧИТЬ в bot.py:
-    1. from proxy_patch import FastProxyPool, upload_to_oss_async
-    2. Замените класс ProxyPool → FastProxyPool (та же сигнатура)
-    3. В main() добавьте: await _PROXY_POOL.initialize()
-    4. В AINSFWClient.upload_to_oss замените тело на: await upload_to_oss_async(sign, image_bytes, content_type)
-    5. В AINSFWClient._do_request() добавьте _PROXY_POOL.mark_good(proxy) после успешного запроса
-"""
-
 import asyncio
 import aiohttp
 import time
